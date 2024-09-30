@@ -3,9 +3,9 @@ import React from 'react';
 function Timeline() {
   return (
     <div id="timeline">
-      <h2>Black Excellence Patented Inventions & Timeline</h2>
+      <h2>A Timeline of Black Excellence & Patented Inventions by black people</h2>
       <ul>
-        <li>1996 - The Late Honorable Rosa Parks, who led the Montgomery, Alabama bus boycott  received a hug and "Thank you" from Javay Johnson.</li>
+        <li>In 1996, the late Honorable Rosa L. Parks, known as the iconic mother of the civil rights movement, received an emotional hug and a heartfelt "Thank you" from Javay Johnson. Rosa Parks led the Montgomery, Alabama bus boycott in 1955. In 1999, Parks was awarded the Congressional Gold Medal of Honor, the highest civilian honor in the United States. I experienced a bond with this courageous Black woman of excellence, who carried the civil rights movement on her shoulders. She paved the way for the advancement of equality for Black people. I had the privilege of a personal encounter with a historical icon, who truly embodies Black Excellence, Infinitely Defined.     </li>
         <li>1821 - Thomas L. Jennings receives the first patent for a dry cleaning process.</li>
         <li>1872 - Elijah McCoy patents the automatic lubricator for steam engines.</li>
         <li>1873 - Joseph Winters patents a fire escape ladder.</li>
