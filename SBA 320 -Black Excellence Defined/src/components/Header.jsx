@@ -5,10 +5,11 @@ function Header() {
     <header>
       <h1>Black Excellence Infinitely Defined</h1>
       <nav>
-        <ul>
-          <li><a href="#random-fact">Random Facts</a></li>
-          <li><a href="#timeline">Timeline</a></li>
-          <li><a href="#quiz">Quiz</a></li>
+      <h5>When you know that you come from greatness, you will aspire to do great things! -Javay Johnson 2024 </h5>
+       <ul>
+          <li><a href="#random-fact">Black Excellence Facts</a></li>
+          <li><a href="#timeline">Black Excellence Importance</a></li>
+          <li><a href="#quiz">Black Excellence Quiz</a></li>
         </ul>
       </nav>
     </header>
