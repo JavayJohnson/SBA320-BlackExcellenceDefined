@@ -3,8 +3,9 @@ import React from 'react';
 function Timeline() {
   return (
     <div id="timeline">
-      <h2>Black American Patented Inventions Timeline</h2>
+      <h2>Black Excellence Patented Inventions & Timeline</h2>
       <ul>
+        <li>1996 - The Late Honorable Rosa Parks, who led the Montgomery, Alabama bus boycott  received a hug and "Thank you" from Javay Johnson.</li>
         <li>1821 - Thomas L. Jennings receives the first patent for a dry cleaning process.</li>
         <li>1872 - Elijah McCoy patents the automatic lubricator for steam engines.</li>
         <li>1873 - Joseph Winters patents a fire escape ladder.</li>

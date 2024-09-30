@@ -11,19 +11,46 @@ body {
   overflow: hidden;
 }
 
-.carousel-images {
+/* .carousel-images {
   display: flex;
   transition: transform 0.5s ease;
-}
+} */
 
-.carousel-images img {
+/* .carousel-images img {
   max-width: 100%;
   display: none;
 }
 
 .carousel-images img.active {
   display: block;
+} */
+
+.carousel-images img {
+  width: 150; /* Makes sure the image takes up the full width of the container */
+  height: 375px; /* Set a fixed height for all images */
+  object-fit: contain; /* Ensures the image maintains its aspect ratio while covering the entire area */
+  display: none; /* Initially hides the images */
 }
+
+.carousel-images img.active {
+  display: block; /* Shows the active image */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* button {
   position: absolute;

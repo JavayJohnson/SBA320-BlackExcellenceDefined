@@ -157,3 +157,13 @@ ul li:nth-child(odd) {
     font-size: 1.1em;
   }
 }
+
+#timeline ul {
+  list-style-position: inside; /* Moves the bullet points inside the list */
+  padding-left: 0; /* Removes default padding from the left */
+  text-align: left; /* Ensures text is left-aligned */
+}
+
+#timeline li {
+  margin-bottom: 10px; /* Adds spacing between list items for better readability */
+}
