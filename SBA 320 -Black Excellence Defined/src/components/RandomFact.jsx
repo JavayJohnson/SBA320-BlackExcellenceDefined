@@ -6,9 +6,9 @@ function RandomFact() {
 
   const fetchFact = async () => {
     try {
-      const response = await fetch('https://blackhistoryapi.com/api/v1/fact/random', {
+      const response = await fetch('https://rest.blackhistoryapi.io/fact/random', {
         headers: {
-          'Authorization': `Bearer ${import.meta.env.VITE_API_KEY}`
+          'x-api-key': `SmF2YXlqb2huc29uU3VuIFNlcCAyOS`
         }
       });
 
@@ -17,7 +17,8 @@ function RandomFact() {
       }
 
       const data = await response.json();
-      setFact(data.fact);
+      console.log(data)
+      setFact(data.Results[0].text);
     } catch (err) {
       setError(err.message);
     }
