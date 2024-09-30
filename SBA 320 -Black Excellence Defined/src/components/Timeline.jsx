@@ -5,8 +5,9 @@ function Timeline() {
     <div id="timeline">
       <h2>Black Excellence That Changed the World</h2>
       <ul>
-        <li>1996 - The Late Honorable Rosa L. Parks, known as the mother of the civil rights movement, received an emotional hug and a heartfelt "Thank you" from Javay Johnson. Rosa Parks led the Montgomery, Alabama bus boycott in 1955. In 1999, Parks was awarded the Congressional Gold Medal of Honor, the highest civilian honor in the United States. I experienced a bond with this courageous Black woman of excellence, who carried the civil rights movement on her shoulders. She paved the way for the advancement of equality for people of color. I had the privilege of a personal encounter with a historical icon, who truly embodies Black Excellence, Infinitely Defined.     </li>
-       <br></br>
+        <li>1996 - The Late Honorable Rosa L. Parks, known as the mother of the civil rights movement, received a heartfelt "Thank you" from Javay Johnson. Rosa Parks led the Montgomery, Alabama bus boycott in 1955. I had the profoundly monumental privilege and the unforgettable experience of briefly sitting with a courageous Black woman of excellence, who carried the civil rights movement on her shoulders.  Her spark, unbridled tenacity, and bravery became a major catalyst in the push for civil rights and the advancement of equality for people of color. In 1999, Parks was awarded the Congressional Gold Medal of Honor, the highest civilian honor in the United States. 
+        Rosa Parks, a historical icon who truly embodied Black Excellence, who is forever etched in history and infinitely defined by her courage and legacy.    </li>
+       <br></br> 
         <li>1821 - Thomas L. Jennings receives the first patent for a dry cleaning process.</li>
         <li>1872 - Elijah McCoy patents the automatic lubricator for steam engines.</li>
         <li>1873 - Joseph Winters patents a fire escape ladder.</li>

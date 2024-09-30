@@ -5,7 +5,7 @@ function Header() {
     <header>
       <h1>Black Excellence Infinitely Defined</h1>
       <nav>
-      <h5>When you know that you are preceded by greatness, you will succeed with greatness! -Javay Johnson 2024 </h5>
+      <h4>When you know that you are preceded by greatness, you will succeed with greatness! -Javay Johnson 2024</h4>
        <ul>
           <li><a href="#random-fact">Black Excellence Facts</a></li>
           <li><a href="#timeline">Black Excellence that Changed the World</a></li>

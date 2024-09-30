@@ -42,7 +42,9 @@ Quiz: Head to the quiz page, answer the questions, and see how well you know Bla
 Timeline: Scroll through the interactive timeline to explore key events in Black History.
 Sharing: Share your favorite facts on social media platforms with a single click.
 Deployment:
-The app is deployed on Heroku/Netlify. You can visit the live site at: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+The app is deployed on Heroku/Netlify. You can visit the live site at:
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d906db72-c7f0-41bc-993c-7532381097a5/deploy-status)](https://app.netlify.com/sites/mellow-souffle-a90bed/deploys)
+
 
 Unsolved Problems:
 If any issues persist in fetching data due to API rate limits or network interruptions.
