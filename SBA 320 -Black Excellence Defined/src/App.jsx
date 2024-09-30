@@ -4,24 +4,31 @@ import Footer from './components/Footer';
 import RandomFact from './components/RandomFact';
 import Timeline from './components/Timeline';
 import Quiz from './components/Quiz';
-import './App.css';
+import Carousel from './components/Carousel';
+import './App.css'; // Importing the App's CSS for styling
 
 function App() {
   return (
     <div className="App">
       <Header />
       <main>
-        <section>
+        <section id="carousel">
+          <Carousel />
+        </section>
+        <section id="random-fact">
           <RandomFact />
         </section>
-        <section>
+        <section id="timeline">
           <Timeline />
         </section>
-        <section>
+      </main>
+      <footer>
+        <section id="quiz">
           <Quiz />
         </section>
-      </main>
-      <Footer />
+        <p>© 2024 Black Excellence Defined</p>
+        <Footer />
+      </footer>
     </div>
   );
 }

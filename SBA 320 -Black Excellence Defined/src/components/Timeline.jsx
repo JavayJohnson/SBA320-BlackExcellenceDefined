@@ -25,8 +25,6 @@ function Timeline() {
         <li>1992 - Patricia Bath patents the Laserphaco Probe for cataract treatment.</li>
         <li>2003 - Marc Hannah co-develops 3D rendering technologies used in modern graphics.</li>
         <li>2016 - Lisa Gelobter develops the Shockwave technology that influenced web animation tools like GIFs.</li>
-
-        {/* Add more historical events here */}
       </ul>
     </div>
   );

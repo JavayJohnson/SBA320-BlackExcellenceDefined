@@ -4,19 +4,22 @@ function RandomFact() {
   const [fact, setFact] = useState("Click the button to load a random fact.");
   const [error, setError] = useState(null);
 
-  // Function to fetch random fact using the server-side proxy
   const fetchFact = async () => {
     try {
-      const response = await fetch('http://localhost:8080/proxy?url=https://blackhistoryapi.com/api/v1/fact/random');
+      const response = await fetch('https://blackhistoryapi.com/api/v1/fact/random', {
+        headers: {
+          'Authorization': `Bearer ${import.meta.env.VITE_API_KEY}` // Ensure your API key is stored as an environment variable
+        }
+      });
 
       if (!response.ok) {
         throw new Error('Failed to fetch the fact.');
       }
 
       const data = await response.json();
-      setFact(data.fact);  // Set the fact from the API response
+      setFact(data.fact);
     } catch (err) {
-      setError(err.message);  // Display error if there's an issue
+      setError(err.message);
     }
   };
 
