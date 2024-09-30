@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import './Carousel.css'; // Import the CSS for carousel
+import './Carousel.css'; 
 
 function Carousel() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const images = [
-    'image1.jpg', // Ensure you have this image in your public folder or change the path accordingly
+    'image1.jpg', 
     'image2.jpg',
     'image3.jpg',
     'image5.jpg',
@@ -16,6 +16,13 @@ function Carousel() {
     'image10.jpg',
     'image11.jpg',
     'image12.jpg',
+    'image13.jpg',
+    'image14.jpg',
+    'image15.jpg',
+    'image16.jpg',
+    'image17.jpg',
+    'image18.jpg',
+    'image19.jpg',
   ];
 
   const showSlide = (index) => {

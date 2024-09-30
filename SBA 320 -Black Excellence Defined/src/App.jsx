@@ -5,7 +5,7 @@ import RandomFact from './components/RandomFact';
 import Timeline from './components/Timeline';
 import Quiz from './components/Quiz';
 import Carousel from './components/Carousel';
-import './App.css'; // Importing the App's CSS for styling
+import './App.css'; 
 
 function App() {
   return (

@@ -1,5 +1,5 @@
 #random-fact button {
-  margin: 10px 0; /* Add some spacing between the button and the header/fact */
+  margin: 10px 0; 
   background-color: #00FF00;
   color: #000000;
   padding: 10px 20px;
@@ -159,11 +159,11 @@ ul li:nth-child(odd) {
 }
 
 #timeline ul {
-  list-style-position: inside; /* Moves the bullet points inside the list */
-  padding-left: 0; /* Removes default padding from the left */
-  text-align: left; /* Ensures text is left-aligned */
+  list-style-position: inside; 
+  padding-left: 0; 
+  text-align: left; 
 }
 
 #timeline li {
-  margin-bottom: 10px; /* Adds spacing between list items for better readability */
+  margin-bottom: 10px; 
 }
