@@ -1,22 +1,32 @@
+require('dotenv').config(); // Load environment variables from .env
+
 const express = require('express');
 const cors = require('cors');
 const request = require('request');
 
 const app = express();
+const PORT = 8080;
 
-app.use(cors());
+app.use(cors()); // Enable CORS for all routes
 
-// Route to proxy the request
+// Create a proxy route
 app.get('/proxy', (req, res) => {
-  const url = req.query.url;
-  if (!url) {
-    return res.status(400).send('Missing URL parameter');
-  }
+  const apiUrl = 'https://blackhistoryapi.com/api/v1/fact/random';
 
-  request({ url }).pipe(res);
+  // Make the request to the external API
+  request({
+    url: apiUrl,
+    headers: {
+      'Authorization': `Bearer ${process.env.API_KEY}` // Use the API key from environment variables
+    },
+  })
+  .on('error', function(err) {
+    res.status(500).send('Error fetching from API');
+  })
+  .pipe(res);
 });
 
-// Start the proxy server on port 8080
-app.listen(8080, () => {
-  console.log('CORS proxy running on port 8080');
+// Start the server
+app.listen(PORT, () => {
+  console.log(`CORS proxy running on port ${PORT}`);
 });
