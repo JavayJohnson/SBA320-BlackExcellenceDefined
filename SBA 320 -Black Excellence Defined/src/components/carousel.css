@@ -25,7 +25,7 @@ body {
   display: block;
 }
 
-button {
+/* button {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -34,7 +34,7 @@ button {
   cursor: pointer;
   font-size: 18px;
   padding: 10px;
-}
+} */
 
 .prev {
   left: 10px;

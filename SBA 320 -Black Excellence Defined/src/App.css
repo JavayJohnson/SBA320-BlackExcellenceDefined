@@ -1,3 +1,18 @@
+#random-fact button {
+  margin: 10px 0; /* Add some spacing between the button and the header/fact */
+  background-color: #00FF00;
+  color: #000000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#random-fact button:hover {
+  background-color: #FF0000;
+  color: #FFFFFF;
+}
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -94,10 +109,10 @@ button:hover {
 footer {
   background-color: #121212;
   color: #FFFFFF;
-  padding: 20px;
-  width: 100%;
+  padding: 50px;
+  width: 90%;
   text-align: center;
-  position: fixed;
+  /* position: fixed; */
   bottom: 0;
   left: 0;
 }

@@ -26,7 +26,7 @@ function App() {
         <section id="quiz">
           <Quiz />
         </section>
-        <p>© 2024 Black Excellence Defined</p>
+        <p>© 2024 Black Excellence Infinitely Defined</p>
         <Footer />
       </footer>
     </div>

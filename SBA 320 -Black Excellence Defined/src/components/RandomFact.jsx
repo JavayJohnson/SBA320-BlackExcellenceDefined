@@ -8,7 +8,7 @@ function RandomFact() {
     try {
       const response = await fetch('https://blackhistoryapi.com/api/v1/fact/random', {
         headers: {
-          'Authorization': `Bearer ${import.meta.env.VITE_API_KEY}` // Ensure your API key is stored as an environment variable
+          'Authorization': `Bearer ${import.meta.env.VITE_API_KEY}`
         }
       });
 
@@ -25,9 +25,9 @@ function RandomFact() {
 
   return (
     <div id="random-fact">
-      <h2>Random Black History Fact</h2>
+      <h2>Black OURstory Facts</h2>
+      <button onClick={fetchFact}>Get Another Fact</button> {/* Button placed below the header */}
       {error ? <p style={{ color: 'red' }}>{error}</p> : <p>{fact}</p>}
-      <button onClick={fetchFact}>Get Another Fact</button>
     </div>
   );
 }

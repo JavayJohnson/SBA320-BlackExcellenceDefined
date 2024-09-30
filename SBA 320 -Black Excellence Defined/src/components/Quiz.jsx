@@ -20,8 +20,42 @@ function Quiz() {
       question: "Who led the Montgomery Bus Boycott?", 
       options: ["Harriet Tubman", "Rosa Parks", "Martin Luther King Jr."], 
       answer: "Rosa Parks" 
+    },
+    { 
+      question: "Who was the first Black woman elected to the United States Congress?", 
+      options: ["Shirley Chisholm", "Kamala Harris", "Michelle Obama"], 
+      answer: "Shirley Chisholm" 
+    },
+    { 
+      question: "In what year did Nelson Mandela become South Africa's first Black president?", 
+      options: ["1990", "1994", "1998"], 
+      answer: "1994" 
+    },
+    { 
+      question: "Who was the first African American woman to win a Nobel Prize in Literature?", 
+      options: ["Maya Angelou", "Toni Morrison", "Alice Walker"], 
+      answer: "Toni Morrison" 
+    },
+    { 
+      question: "Which famous abolitionist and former enslaved person was known for their autobiography 'Narrative of the Life of Frederick Douglass'?", 
+      options: ["Frederick Douglass", "Booker T. Washington", "W.E.B. Du Bois"], 
+      answer: "Frederick Douglass" 
+    },
+    { 
+      question: "What year did Barack Obama win the Nobel Peace Prize?", 
+      options: ["2008", "2009", "2010"], 
+      answer: "2009" 
+    },
+    { 
+      question: "Who was the first Black woman to travel into space?", 
+      options: ["Mae Jemison", "Katherine Johnson", "Mary Jackson"], 
+      answer: "Mae Jemison" 
+    },
+    { 
+      question: "What historic Supreme Court case declared segregation in public schools unconstitutional?", 
+      options: ["Plessy v. Ferguson", "Brown v. Board of Education", "Dred Scott v. Sandford"], 
+      answer: "Brown v. Board of Education" 
     }
-    // You can add more questions here
   ];
 
   const handleAnswer = (selectedOption) => {
