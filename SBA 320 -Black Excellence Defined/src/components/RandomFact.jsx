@@ -26,7 +26,7 @@ function RandomFact() {
 
   return (
     <div id="random-fact">
-      <h2>Black EXCELLENCE Facts</h2>
+      <h2>Black Excellence Facts</h2>
       <button onClick={fetchFact}>Get Another Fact</button> {/* Button now placed below the header */}
       {error ? <p style={{ color: 'red' }}>{error}</p> : <p>{fact}</p>}
     </div>

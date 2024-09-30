@@ -73,7 +73,7 @@ function Quiz() {
 
   return (
     <div id="quiz">
-      <h2>Black History Quiz</h2>
+      <h2>Black Excellence Quiz</h2>
       {showScore ? (
         <div>
           <p>Your final score: {score}/{questions.length}</p>
