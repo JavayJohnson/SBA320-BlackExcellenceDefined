@@ -9,9 +9,3 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   </React.StrictMode>
 );
 
-app.use(express.json());
-
-app.use(cors({
-  origin: true,
-  credentials: true
-}));
