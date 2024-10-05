@@ -3,7 +3,6 @@
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
-
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
@@ -33,22 +32,18 @@ React: To build a dynamic user interface.
 AJAX: For making requests to the BlackHistoryAPI to fetch data.
 
 
-
 Usage Instructions:
 Random Facts: On the homepage, click “Give Me a Fact” to retrieve a random fact.
-
 Quiz: Head to the quiz page, answer the questions, and see how well you know Black History.
-
 Timeline: Scroll through the interactive timeline to explore key events in Black History.
-
 Sharing: Share your favorite facts on social media platforms with a single click.
-
 Deployment: Currently in dev
 
 
 Unsolved Problems:
 If any issues persist in fetching data due to API rate limits or network interruptions.
 Performance optimization for slow devices (optional for future versions).
+
 
 Future Enhancements:
 User Authentication: Allow users to create accounts and store their quiz scores.

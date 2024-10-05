@@ -1,5 +1,5 @@
 // Controller Controlling? Functionality of Data based of HTTP methods and REST routing
-const Note = require("../models/note");
+const Note = require("../models/notes");
 
 // CRUD ---> find() findByID() findByIdAndUpdate() findByIdAndDelete()
 
